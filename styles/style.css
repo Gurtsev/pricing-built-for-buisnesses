@@ -1,0 +1,106 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  min-width: 1920px;
+}
+
+img {
+  width: 100%;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+}
+
+.header__wrapp {
+  display: flex;
+  flex-direction: column;
+  padding: 161px 624px 72px;
+}
+
+.header__title {
+  font-family: Roboto-Bold, sans-serif;
+  color: #161d25;
+  font-size: 38px;
+  line-height: auto;
+  padding-bottom: 13px;
+}
+
+.header__phrase {
+  font-family: Roboto-Regular, sans-serif;
+  font-size: 22px;
+  text-align: center;
+  color: #5d7085;
+}
+
+.cards {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 0 419px 190px;
+}
+
+.cards__list {
+  display: flex;
+  justify-content: space-between;
+  gap: 6px;
+}
+
+.cards__list-item {
+  display: flex;
+  flex-direction: column;
+  padding: 72px 35px 36px;
+  min-width: 266px;
+  min-height: 601px;
+  list-style: none;
+  color: #fff;
+}
+
+.item__image {
+  max-width: 196px;
+  padding-bottom: 15px;
+}
+
+.card__list-title {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 27px;
+}
+
+.card-title {
+  font-family: Roboto-Medium, sans-serif;
+  font-size: 21px;
+}
+
+.cards__list-text {
+  font-size: 12px;
+  font-family: Roboto-Regular, sans-serif;
+}
+
+.dollar {
+  font-family: Roboto-Medium, sans-serif;
+  position: relative;
+  font-size: 16px;
+}
+
+.cards__price {
+}
+
+.item-snail {
+  background-color: #fdc624;
+}
