@@ -16,6 +16,7 @@ h6 {
 
 body {
   min-width: 1920px;
+  margin: 0 auto;
 }
 
 img {
@@ -56,6 +57,7 @@ img {
 }
 
 .cards__list {
+  position: relative;
   display: flex;
   justify-content: space-between;
   gap: 6px;
@@ -66,7 +68,7 @@ img {
   flex-direction: column;
   padding: 72px 35px 36px;
   min-width: 266px;
-  min-height: 601px;
+  height: 601px;
   list-style: none;
   color: #fff;
 }
@@ -82,7 +84,7 @@ img {
   padding-bottom: 27px;
 }
 
-.card-title {
+.cards__title {
   font-family: Roboto-Medium, sans-serif;
   font-size: 21px;
 }
@@ -95,12 +97,46 @@ img {
 .dollar {
   font-family: Roboto-Medium, sans-serif;
   position: relative;
+  right: 1px;
+  bottom: 50px;
   font-size: 16px;
 }
 
 .cards__price {
+  font-family: Roboto-Bold, sans-serif;
+  font-size: 67px;
 }
 
 .item-snail {
   background-color: #fdc624;
+}
+
+.cards__list-included-options {
+  position: relative;
+  z-index: 0;
+  inset: 0;
+  font-family: Roboto-Medium;
+  font-size: 14px;
+  display: flex;
+  align-self: flex-start;
+  flex-direction: column;
+  gap: 15px;
+  padding-bottom: 120px;
+}
+
+.cards__list-included-options-item {
+  list-style: none;
+}
+
+.cards__button {
+  position: relative;
+  z-index: 1;
+  min-width: 196px;
+  min-height: 40px;
+  background-color: transparent;
+  color: #fff;
+  font-family: Roboto, sans-serif;
+  font-size: 14px;
+  border: 2px solid #fff;
+  border-radius: 3px;
 }
